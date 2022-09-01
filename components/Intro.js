@@ -11,18 +11,20 @@ const Intro = () => {
       {/* <Circle backgroundColor="#01c686" right="-40vh" /> */}
       <div className={style.card}>
         <h1 className={style.title}>
-          <span className={style.brandName}>AV0CAD0</span> DIGITAL PRODUCT
-          AGENCY
+          <span className={style.brandName}>PROGRESSO</span> CONSTRUCTION
+          COMPANY
         </h1>
         <p className={style.desc}>
-          Create live segments and target the right people for messages based on
-          their behaviors.
+         Building better for tomorrow.
+        </p>
+        <p className={style.desc}>
+         FULL WEBSITE COMING SOON
         </p>
         <button className={style.button}>DISCOVER</button>
       </div>
       <div className={style.card}>
         <Image
-          src={process.env.NEXT_PUBLIC_URL + "/img/Avocado.png"}
+          src={process.env.NEXT_PUBLIC_URL + "/img/construction-image.jpeg"}
           layout="fill"
           objectFit="cover"
           alt=""

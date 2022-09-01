@@ -10,15 +10,15 @@ export default function Home({ services }) {
   return (
     <div>
       <Head>
-        <title>AV0CAD0 Digital Product Agency</title>
+        <title>Progresso</title>
         <meta
           name="description"
           content="Web Design, App Development, Content Creation Agency Near Sweden"
         />
       </Head>
       <Intro />
-      <Services services={services} />
-      <Testimonials />
+      {/* <Services services={services} /> */}
+      {/* <Testimonials /> */}
     </div>
   );
 }

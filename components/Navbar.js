@@ -7,9 +7,9 @@ const Navbar = () => {
 
   return (
     <div className={style.container}>
-      <Link href="/">AV0CAD0</Link>
+      <Link href="/">PROGRESSO</Link>
       <ul className={style.list}>
-        <li className={style.listItem}>
+        {/* <li className={style.listItem}>
           <Link href="/products/design">DESIGN</Link>
         </li>
         <li className={style.listItem}>
@@ -20,7 +20,7 @@ const Navbar = () => {
         </li>
         <li className={style.listItem}>
           <Link href="/products/photography">PHOTOGRAPHY</Link>
-        </li>
+        </li> */}
         <li className={style.listItem}>
           <Link href="/contact">CONTACT</Link>
         </li>
@@ -34,7 +34,7 @@ const Navbar = () => {
         <li className={style.menuItem}>
           <Link href="/">HOME</Link>
         </li>
-        <li className={style.menuItem}>
+        {/* <li className={style.menuItem}>
           <Link href="/products/design">DESIGN</Link>
         </li>
         <li className={style.menuItem}>
@@ -45,7 +45,7 @@ const Navbar = () => {
         </li>
         <li className={style.menuItem}>
           <Link href="/products/photography">PHOTOGRAPHY</Link>
-        </li>
+        </li> */}
         <li className={style.menuItem}>
           <Link href="/contact">CONTACT</Link>
         </li>
